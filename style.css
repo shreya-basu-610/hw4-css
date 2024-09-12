@@ -1,0 +1,121 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+.header{
+    background-image: url(https://i.pinimg.com/736x/e1/c2/3a/e1c23ac34847740f672717c89a62ae37.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 50vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0px 0px 10px 5px black;
+}
+
+.header input{
+    position: sticky;
+    top: 100px;
+    background-color: rgb(78, 18, 18);
+    height: 60px;  
+    margin-top: 100px;
+    width: 70%;
+    font-size: 20px;
+    color: white;
+    padding: 10px;
+    border-style: none;
+    border-radius: 10px;
+    transition: box-shadow 0.1s ease;
+}
+
+.header input::placeholder{
+    color: rgb(149, 149, 149);
+}
+
+.header input:focus{
+    cursor: text;
+    box-shadow: black 0px 0px 20px 10px;
+}
+
+.header input:focus-visible{
+    outline: none;
+}
+
+body{
+    background-color: #ecd4d4;
+}
+
+.content{
+    height: 200px;
+    width: 100%;
+    display: flex;
+    justify-content: space-around;
+    padding-top: 50px;
+    padding-left: 50px;
+}
+
+.content .image{
+    height: 150px;
+    width: 150px;
+    border-radius: 50%;
+}
+
+.image img{
+    height: 100%;
+    width: 100%;
+    border-radius: 50%;
+    transition: all 0.2s ease;
+}
+
+.image img:hover{
+    cursor: pointer;
+    transform: translateY(-10px);
+    box-shadow: black 0px 7px 10px 5px;
+}
+
+.heading{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+    padding-left: 50px;
+    padding-top: 5px;
+}
+
+.heading h4{
+    text-align: center;
+}
+
+.heading .heading-content{
+    width: 150px;
+}
+
+.main-section{
+    color: #a52b28;
+}
+
+.main-content{
+    width: 90%;
+    margin: 0 auto;
+    padding: 50px;
+    background-color: #d7a1a1;
+    margin-top: 60px;
+    border-radius: 10px;
+    box-shadow: #a52b28 0px 0px 5px 2px;
+}
+
+.content-list{
+    width: 90%;
+    margin: 60px auto;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: #a52b28 0px 0px 5px 2px;
+    background-color: #d7a1a1;
+    color: #a52b28;
+}
+
+.content-list ol{
+    line-height: 2;
+}
